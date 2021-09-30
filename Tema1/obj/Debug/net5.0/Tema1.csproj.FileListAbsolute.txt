@@ -1,0 +1,16 @@
+D:\INET Labs\Tema1\bin\Debug\net5.0\Tema1.exe
+D:\INET Labs\Tema1\bin\Debug\net5.0\Tema1.deps.json
+D:\INET Labs\Tema1\bin\Debug\net5.0\Tema1.runtimeconfig.json
+D:\INET Labs\Tema1\bin\Debug\net5.0\Tema1.runtimeconfig.dev.json
+D:\INET Labs\Tema1\bin\Debug\net5.0\Tema1.dll
+D:\INET Labs\Tema1\bin\Debug\net5.0\ref\Tema1.dll
+D:\INET Labs\Tema1\bin\Debug\net5.0\Tema1.pdb
+D:\INET Labs\Tema1\obj\Debug\net5.0\Tema1.csproj.AssemblyReference.cache
+D:\INET Labs\Tema1\obj\Debug\net5.0\Tema1.GeneratedMSBuildEditorConfig.editorconfig
+D:\INET Labs\Tema1\obj\Debug\net5.0\Tema1.AssemblyInfoInputs.cache
+D:\INET Labs\Tema1\obj\Debug\net5.0\Tema1.AssemblyInfo.cs
+D:\INET Labs\Tema1\obj\Debug\net5.0\Tema1.csproj.CoreCompileInputs.cache
+D:\INET Labs\Tema1\obj\Debug\net5.0\Tema1.dll
+D:\INET Labs\Tema1\obj\Debug\net5.0\ref\Tema1.dll
+D:\INET Labs\Tema1\obj\Debug\net5.0\Tema1.pdb
+D:\INET Labs\Tema1\obj\Debug\net5.0\Tema1.genruntimeconfig.cache

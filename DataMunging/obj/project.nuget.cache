@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SbGB7mkboty6vdO91PMwh+amDMcyS/0jRWcZ3hp6/LyPaSFx1fgjZ4QDPkYB8YEB4xpr1eGuxI7dLuskDYORMA==",
+  "dgSpecHash": "vd2lRmq+bqn6TumNC2S8AZN629VkKzBn+ch3jYYatlrgfbAxhrX35YuFZOBZbCDcfTVJMMNWD+PUhxSOKw4Icg==",
   "success": true,
-  "projectFilePath": "D:\\Facultate\\.NET\\DataMunging\\Weather.csproj",
+  "projectFilePath": "D:\\Facultate\\.NET\\INET-Labs\\DataMunging\\Weather.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

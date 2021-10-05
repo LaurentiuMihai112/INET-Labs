@@ -1,0 +1,16 @@
+D:\Facultate\.NET\DataMunging\bin\Debug\net5.0\Weather.exe
+D:\Facultate\.NET\DataMunging\bin\Debug\net5.0\Weather.deps.json
+D:\Facultate\.NET\DataMunging\bin\Debug\net5.0\Weather.runtimeconfig.json
+D:\Facultate\.NET\DataMunging\bin\Debug\net5.0\Weather.runtimeconfig.dev.json
+D:\Facultate\.NET\DataMunging\bin\Debug\net5.0\Weather.dll
+D:\Facultate\.NET\DataMunging\bin\Debug\net5.0\ref\Weather.dll
+D:\Facultate\.NET\DataMunging\bin\Debug\net5.0\Weather.pdb
+D:\Facultate\.NET\DataMunging\obj\Debug\net5.0\Weather.csproj.AssemblyReference.cache
+D:\Facultate\.NET\DataMunging\obj\Debug\net5.0\Weather.GeneratedMSBuildEditorConfig.editorconfig
+D:\Facultate\.NET\DataMunging\obj\Debug\net5.0\Weather.AssemblyInfoInputs.cache
+D:\Facultate\.NET\DataMunging\obj\Debug\net5.0\Weather.AssemblyInfo.cs
+D:\Facultate\.NET\DataMunging\obj\Debug\net5.0\Weather.csproj.CoreCompileInputs.cache
+D:\Facultate\.NET\DataMunging\obj\Debug\net5.0\Weather.dll
+D:\Facultate\.NET\DataMunging\obj\Debug\net5.0\ref\Weather.dll
+D:\Facultate\.NET\DataMunging\obj\Debug\net5.0\Weather.pdb
+D:\Facultate\.NET\DataMunging\obj\Debug\net5.0\Weather.genruntimeconfig.cache

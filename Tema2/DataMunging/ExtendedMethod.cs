@@ -4,9 +4,13 @@ namespace Weather
 {
     public static class ExtendedMethod
     {
-        public static int Check(this string property)
+        public static T ParseValue<T>(this string property)
         {
-            return Int32.Parse(property.Replace('*', '\0'));
+            if (typeof(T) == typeof(int))
+                return (T) Convert.ChangeType(Int32.Parse(property.Replace('*', '\0')), typeof(T));
+            if (typeof(T) == typeof(double))
+                return (T) Convert.ChangeType(Double.Parse(property.Replace('*', '\0')), typeof(T));
+            return (T) Convert.ChangeType(property, typeof(T));
         }
     }
 }

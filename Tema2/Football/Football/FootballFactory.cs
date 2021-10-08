@@ -2,11 +2,11 @@
 using Weather;
 
 namespace Football
-{   
+{
     public class FootballFactory
     {
         private List<FootballRow> _footballRows;
-        private static string FilePath = "..\\..\\..\\resources\\football.dat";
+        private static string FilePath = "F:\\INET-Labs\\Tema2\\resources\\football.dat";
 
         public List<FootballRow> FootballRows
         {
@@ -22,7 +22,10 @@ namespace Football
             {
                 if (extractedRows.IndexOf(row) >= 1 && !(row[0].StartsWith('-')))
                 {
-                    FootballRows.Add(new FootballRow(row[1], row[6].Check(), row[8].Check()));
+                    FootballRow footballRow = new FootballRow(row[1].ParseValue<string>(), row[2].ParseValue<int>(),
+                        row[3].ParseValue<int>(), row[4].ParseValue<int>(), row[5].ParseValue<int>(),
+                        row[6].ParseValue<int>(), row[8].ParseValue<int>(), row[9].ParseValue<int>());
+                    FootballRows.Add(footballRow);
                 }
             }
         }

@@ -5,14 +5,25 @@ namespace Football
     public class FootballRow
     {
         private string _team;
+        private int _played;
+        private int _wins;
+        private int _losses;
+        private int _draws;
         private int _goalsFor;
         private int _goalsAgainst;
+        private int _pts;
 
-        public FootballRow(string team, int goalsFor, int goalsAgainst)
+        public FootballRow(string team, int played, int wins, int losses, int draws, int goalsFor, int goalsAgainst,
+            int pts)
         {
             _team = team;
+            _played = played;
+            _wins = wins;
+            _losses = losses;
+            _draws = draws;
             _goalsFor = goalsFor;
             _goalsAgainst = goalsAgainst;
+            _pts = pts;
         }
 
         public string Team

@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace Weather
 {
     public class WeatherFactory
     {
         private List<WeatherRow> _weatherRows;
-        private static string FilePath = "D:\\Facultate\\.NET\\DataMunging\\resources\\weather.dat";
+        private static string FilePath = "F:\\INET-Labs\\Tema2\\resources\\weather.dat";
 
         public List<WeatherRow> WeatherRows
         {
@@ -22,7 +21,14 @@ namespace Weather
             {
                 if (extractedRows.IndexOf(row) >= 2 && extractedRows.IndexOf(row) < extractedRows.Count - 1)
                 {
-                    WeatherRows.Add(new WeatherRow(row[0].Check(), row[1].Check(), row[2].Check()));
+                    WeatherRow weatherRow = new WeatherRow(row[0].ParseValue<int>(), row[1].ParseValue<int>(),
+                        row[2].ParseValue<int>(), row[3].ParseValue<int>(), row[4].ParseValue<int>(),
+                        row[5].ParseValue<double>(), row[6].ParseValue<int>(), row[7].ParseValue<double>(),
+                        row[8].ParseValue<string>(), row[9].ParseValue<string>(), row[10].ParseValue<double>(),
+                        row[11].ParseValue<string>(), row[12].ParseValue<int>(), row[13].ParseValue<double>(),
+                        row[14].ParseValue<int>(), row[15].ParseValue<int>(), row[16].ParseValue<double>());
+
+                    WeatherRows.Add(weatherRow);
                 }
             }
         }
